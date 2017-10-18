@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Apps
-    'shop',
+    'catalog',
 
     # 3rd party
     'rest_framework',

@@ -3,4 +3,5 @@ from . import views
 
 urlpatterns = [
     url(r'^items/$', views.ItemList.as_view()),
+    url(r'^products/(?P<pk>[0-9]+)/$', views.ItemDetail.as_view()),
 ]
